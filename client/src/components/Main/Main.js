@@ -39,6 +39,7 @@ const Main = (props) => {
   return (
     <MainContainer>
       <Row>
+        <h2>SDM Project Video Chat</h2>
         <Label htmlFor="roomName">Room Name</Label>
         <Input type="text" id="roomName" ref={roomRef} />
       </Row>
