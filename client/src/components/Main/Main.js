@@ -38,10 +38,10 @@ const Main = (props) => {
 
   return (
     <MainContainer>
+      <div>
+         <h2>SDM Project Video Chat</h2>
+      </div>
       <Row>
-        <div>
-          <h2>SDM Project Video Chat</h2>
-        </div>
         <Label htmlFor="roomName">Room Name</Label>
         <Input type="text" id="roomName" ref={roomRef} />
       </Row>
